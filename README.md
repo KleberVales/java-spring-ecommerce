@@ -29,6 +29,7 @@ O projeto contempla cadastro de usuários, produtos, carrinho de compras e pedid
 ### 📑 Pedidos
 
 - Criação de pedidos a partir do carrinho
+- Cálculo do valor total
 
 
 
