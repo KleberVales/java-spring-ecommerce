@@ -52,6 +52,25 @@ O projeto contempla cadastro de usuários, produtos, carrinho de compras e pedid
 ## 🏗️ Arquitetura
 
 Projeto **monolítico em camadas**, seguindo boas práticas:
+controller → service → repository → database,
+
+### 📂 Estrutura de Pacotes
+
+
+```shell
+
+
+com.example.javaspringecommerce
+│
+├── config # Configurações (Security, Beans, etc)
+├── controller # Controllers REST
+├── domain # Entidades JPA
+├── dto # Data Transfer Objects
+├── repository # Repositórios JPA
+├── service # Regras de negócio
+└── EcommerceApplication.java
+
+```
 
 
 ---
