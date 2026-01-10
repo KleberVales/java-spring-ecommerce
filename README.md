@@ -19,6 +19,8 @@ O projeto contempla cadastro de usuários, produtos, carrinho de compras e pedid
 - Atualização e remoção
 - Controle de estoque
 
+### 🧺 Carrinho de Compras
+
 
 
 
