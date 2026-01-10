@@ -44,6 +44,7 @@ O projeto contempla cadastro de usuários, produtos, carrinho de compras e pedid
 - **PostgreSQL**
 - **Gradle (Groovy DSL)**
 - **Hibernate**
+- **REST API**
 
 
 ---
