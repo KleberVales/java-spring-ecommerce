@@ -26,6 +26,8 @@ O projeto contempla cadastro de usuários, produtos, carrinho de compras e pedid
 - Remover produto
 - Visualizar carrinho
 
+### 📑 Pedidos
+
 
 
 
