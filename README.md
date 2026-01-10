@@ -46,6 +46,12 @@ O projeto contempla cadastro de usuários, produtos, carrinho de compras e pedid
 - **Hibernate**
 - **REST API**
 - **DTO Pattern**
+  
+---
+
+## 🏗️ Arquitetura
+
+Projeto **monolítico em camadas**, seguindo boas práticas:
 
 
 ---
