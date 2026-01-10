@@ -32,6 +32,9 @@ O projeto contempla cadastro de usuários, produtos, carrinho de compras e pedid
 - Cálculo do valor total
 - Histórico de pedidos por usuário
 
+---
+
+## 🛠️ Tecnologias Utilizadas
 
 
 
