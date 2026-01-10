@@ -39,6 +39,7 @@ O projeto contempla cadastro de usuários, produtos, carrinho de compras e pedid
 - **Java 21**
 - **Spring Boot**
 - **Spring Web**
+- **Spring Data JPA**
 
 
 
