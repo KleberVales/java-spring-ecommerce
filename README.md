@@ -12,6 +12,8 @@ O projeto contempla cadastro de usuários, produtos, carrinho de compras e pedid
 - Perfis de acesso (USER / ADMIN)
 - Estrutura preparada para autenticação com Spring Security
 
+### 📦 Produtos
+
 
 
 
