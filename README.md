@@ -72,6 +72,12 @@ com.example.javaspringecommerce
 
 ```
 
+---
+
+## 🗄️ Banco de Dados
+
+### PostgreSQL
+
 
 ---
 
