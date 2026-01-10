@@ -45,6 +45,7 @@ O projeto contempla cadastro de usuários, produtos, carrinho de compras e pedid
 - **Gradle (Groovy DSL)**
 - **Hibernate**
 - **REST API**
+- **DTO Pattern**
 
 
 ---
