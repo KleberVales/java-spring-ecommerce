@@ -6,6 +6,9 @@ O projeto contempla cadastro de usuários, produtos, carrinho de compras e pedid
 
 ## 📌 Funcionalidades
 
+### 👤 Usuários
+
+
 
 
 ---
