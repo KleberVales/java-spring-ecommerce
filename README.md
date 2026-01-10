@@ -41,8 +41,7 @@ O projeto contempla cadastro de usuários, produtos, carrinho de compras e pedid
 - **Spring Web**
 - **Spring Data JPA**
 - **Spring Security** (em evolução)
-
-
+- **PostgreSQL**
 
 ---
 
