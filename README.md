@@ -36,6 +36,9 @@ O projeto contempla cadastro de usuários, produtos, carrinho de compras e pedid
 
 ## 🛠️ Tecnologias Utilizadas
 
+- **Java 21**
+- **Spring Boot**
+
 
 
 ---
