@@ -23,6 +23,7 @@ O projeto contempla cadastro de usuários, produtos, carrinho de compras e pedid
 
 - Adicionar produto ao carrinho
 - Atualizar quantidade
+- Remover produto
 
 
 
