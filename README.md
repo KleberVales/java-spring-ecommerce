@@ -4,6 +4,9 @@ Aplicação **E-commerce simples** desenvolvida com **Java 21** e **Spring Boot*
 
 O projeto contempla cadastro de usuários, produtos, carrinho de compras e pedidos, com persistência em banco de dados relacional **PostgreSQL**.
 
+## 📌 Funcionalidades
+
+
 
 ---
 
