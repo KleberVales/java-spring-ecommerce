@@ -8,6 +8,9 @@ O projeto contempla cadastro de usuários, produtos, carrinho de compras e pedid
 
 ### 👤 Usuários
 
+- Cadastro de usuário
+
+
 
 
 
