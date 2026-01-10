@@ -4,6 +4,8 @@ import org.example.javaspringecommerce.domain.user.User;
 import org.example.javaspringecommerce.repository.UserRepository;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 @Service
 public class UserService {
 
@@ -28,5 +30,8 @@ public class UserService {
     }
 
     // ================= Read operation ==============================
+    public List<User> findAll(){
+        return repository.findAll();
+    }
 
 }

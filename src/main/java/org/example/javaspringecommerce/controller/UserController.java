@@ -4,10 +4,10 @@ import org.example.javaspringecommerce.domain.user.User;
 import org.example.javaspringecommerce.dto.user.UserRequestDTO;
 import org.example.javaspringecommerce.dto.user.UserResponseDTO;
 import org.example.javaspringecommerce.service.UserService;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
+import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/api/users")
@@ -32,6 +32,15 @@ public class UserController {
 
 
         return userResponseDTO;
+    }
+
+    //=============================== Operation read =========================================
+    @GetMapping
+    public List<UserResponseDTO> findAll() {
+        return userService.findAll().stream()
+                .map(user -> new UserResponseDTO(user.getId(), user.getUsername(), user.getEmail(),
+                        user.getPasswordHash()))
+                .toList();
     }
 
 }
