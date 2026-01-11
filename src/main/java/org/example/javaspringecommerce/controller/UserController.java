@@ -3,11 +3,13 @@ package org.example.javaspringecommerce.controller;
 import org.example.javaspringecommerce.domain.user.User;
 import org.example.javaspringecommerce.dto.user.UserRequestDTO;
 import org.example.javaspringecommerce.dto.user.UserResponseDTO;
+import org.example.javaspringecommerce.dto.user.UserUpdateDTO;
 import org.example.javaspringecommerce.service.UserService;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
-import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping("/api/users")
@@ -41,6 +43,43 @@ public class UserController {
                 .map(user -> new UserResponseDTO(user.getId(), user.getUsername(), user.getEmail(),
                         user.getPasswordHash()))
                 .toList();
+    }
+
+    @GetMapping("/{id}")
+    public ResponseEntity<UserResponseDTO> findById(@PathVariable Long id) {
+
+        User user = userService.findById(id);
+
+        UserResponseDTO dto = new UserResponseDTO(
+                user.getId(),
+                user.getUsername(),
+                user.getEmail(),
+                user.getPasswordHash()
+        );
+
+        return ResponseEntity.ok(dto);
+    }
+
+    @PutMapping("/{id}")
+    public ResponseEntity<UserResponseDTO> update(
+            @PathVariable Long id,
+            @RequestBody UserUpdateDTO dto) {
+
+        User updated = userService.updateUser(id, dto);
+
+        UserResponseDTO response = new UserResponseDTO(
+                updated.getId(),
+                updated.getUsername(),
+                updated.getEmail()
+        );
+
+        return ResponseEntity.ok(response);
+    }
+
+    @DeleteMapping("/{id}")
+    @ResponseStatus(HttpStatus.NO_CONTENT)
+    public void deleteUser(@PathVariable Long id) {
+        userService.delete(id);
     }
 
 }
