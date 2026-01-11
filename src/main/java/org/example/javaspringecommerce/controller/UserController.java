@@ -7,6 +7,7 @@ import org.example.javaspringecommerce.dto.user.UserUpdateDTO;
 import org.example.javaspringecommerce.service.UserService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -25,7 +26,7 @@ public class UserController {
     public UserResponseDTO registerUser(@RequestBody UserRequestDTO userRequestDTO) {
 
         User user = userService.create(userRequestDTO.getUsername(),
-                userRequestDTO.getEmail(), userRequestDTO.getPasswordHash());
+                userRequestDTO.getEmail(), userRequestDTO.getPasswordHash(), userRequestDTO.getRole());
 
         UserResponseDTO userResponseDTO = new UserResponseDTO();
 

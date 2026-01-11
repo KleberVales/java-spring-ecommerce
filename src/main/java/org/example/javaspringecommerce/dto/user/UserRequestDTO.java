@@ -1,10 +1,22 @@
 package org.example.javaspringecommerce.dto.user;
 
+import org.example.javaspringecommerce.domain.user.Role;
+
 public class UserRequestDTO {
 
     private String username;
     private String email;
     private String passwordHash;
+
+    private Role role;
+
+    public Role getRole() {
+        return role;
+    }
+
+    public void setRole(Role role) {
+        this.role = role;
+    }
 
     public String getUsername() {
         return username;
