@@ -27,6 +27,7 @@ The project includes user registration, product management, shopping carts, and 
 - Remove products
 - View cart contents
 
+### 📑 Orders
 
 
 
