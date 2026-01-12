@@ -37,6 +37,7 @@ The project includes user registration, product management, shopping carts, and 
 
 ## 🛠️ Technologies Used
 
+- **Java 21**
 
 
 
