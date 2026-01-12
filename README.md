@@ -44,7 +44,7 @@ The project includes user registration, product management, shopping carts, and 
 - **Spring Security**
 - **PostgreSQL**
 - **Gradle (Groovy DSL)**
-
+- **Hibernate**
 
 
 
