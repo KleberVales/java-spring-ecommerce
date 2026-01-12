@@ -1,102 +1,83 @@
 # 🛒 Java Spring E-commerce
 
-Aplicação **E-commerce simples** desenvolvida com **Java 21** e **Spring Boot**, utilizando arquitetura **monolítica**, com foco em boas práticas, separação de camadas e uso de DTOs.
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white)
+![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
+![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white)
+![JWT](https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens)
 
-O projeto contempla cadastro de usuários, produtos, carrinho de compras e pedidos, com persistência em banco de dados relacional **PostgreSQL**.
-
-## 📌 Funcionalidades
-
-### 👤 Usuários
-
-- Cadastro de usuário
-- Perfis de acesso (USER / ADMIN)
-- Estrutura preparada para autenticação com Spring Security
-
-### 📦 Produtos
-
-- Cadastro de produtos
-- Listagem de produtos
-- Atualização e remoção
-- Controle de estoque
-
-### 🧺 Carrinho de Compras
-
-- Adicionar produto ao carrinho
-- Atualizar quantidade
-- Remover produto
-- Visualizar carrinho
-
-### 📑 Pedidos
-
-- Criação de pedidos a partir do carrinho
-- Cálculo do valor total
-- Histórico de pedidos por usuário
+A **simple E-commerce application** developed with **Java 21** and **Spring Boot**, utilizing a **monolithic architecture** with a focus on best practices, layer separation, and the use of DTOs (Data Transfer Objects).
+The project includes user registration, product management, shopping carts, and order processing, with persistence in a **PostgreSQL** relational database.
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## 📌 Features
+
+### 👤 Users
+
+- User registration
+- Access profiles (USER / ADMIN)
+- Structure prepared for Spring Security authentication
+
+### 📦 Products
+
+- Product registration
+- Product listing
+- Updates and deletions
+- Inventory/Stock control
+
+### 🧺 Shopping Cart
+
+- Add products to the cart
+- Update quantities
+- Remove products
+- View cart contents
+
+### 📑 Orders
+
+- Create orders from the shopping cart
+- Total value calculation
+- Order history per user
+
+---
+
+## 🛠️ Technologies Used
 
 - **Java 21**
 - **Spring Boot**
 - **Spring Web**
 - **Spring Data JPA**
-- **Spring Security** (em evolução)
+- **Spring Security**
 - **PostgreSQL**
 - **Gradle (Groovy DSL)**
 - **Hibernate**
 - **REST API**
 - **DTO Pattern**
-  
+
 ---
 
-## 🏗️ Arquitetura
+## 🏗️ Architecture
 
-Projeto **monolítico em camadas**, seguindo boas práticas:
-controller → service → repository → database,
+The project follows a **layered monolithic architecture**, adhering to industry best practices:
+**Controller → Service → Repository → Database**
 
-### 📂 Estrutura de Pacotes
-
+### 📂 Package Structure
 
 ```shell
-
-
 com.example.javaspringecommerce
 │
-├── config # Configurações (Security, Beans, etc)
-├── controller # Controllers REST
-├── domain # Entidades JPA
-├── dto # Data Transfer Objects
-├── repository # Repositórios JPA
-├── service # Regras de negócio
+├── config      # Configurations (Security, Beans, etc.)
+├── controller  # REST Controllers
+├── domain      # JPA Entities
+├── dto         # Data Transfer Objects
+├── repository  # JPA Repositories
+├── service     # Business Logic
 └── EcommerceApplication.java
-
-```
-
----
-
-## 🗄️ Banco de Dados
-
-### PostgreSQL
-
-Configuração em `application.properties`:
-
-```properties
-spring.datasource.url=jdbc:postgresql://localhost:5432/ecommerce
-spring.datasource.username=postgres
-spring.datasource.password=postgres
-
-spring.jpa.hibernate.ddl-auto=update
-spring.jpa.show-sql=true
-spring.jpa.properties.hibernate.format_sql=true
 ```
 
 
----
 
-- Simple E-commerce System
 
-    - Product registration, shopping cart, and order management.
 
-    - Integration with relational databases (Postgres).
 
-    - Ability to add authentication and user profiles.
+
+
