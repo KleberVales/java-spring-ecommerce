@@ -29,6 +29,7 @@ The project includes user registration, product management, shopping carts, and 
 
 ### 📑 Orders
 
+- Create orders from the shopping cart
 
 
 
