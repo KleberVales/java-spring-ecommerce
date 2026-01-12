@@ -8,3 +8,5 @@ The project includes user registration, product management, shopping carts, and 
 ## 📌 Features
 
 ### 👤 Users
+
+- User registration
