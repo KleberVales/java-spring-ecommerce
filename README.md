@@ -21,3 +21,13 @@ The project includes user registration, product management, shopping carts, and 
 - Inventory/Stock control
 
 ### 🧺 Shopping Cart
+
+- Add products to the cart
+- Update quantities
+- Remove products
+- View cart contents
+
+
+
+
+
