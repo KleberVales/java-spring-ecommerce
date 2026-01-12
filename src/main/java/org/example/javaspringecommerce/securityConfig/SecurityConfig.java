@@ -40,6 +40,11 @@ public class SecurityConfig {
                 .authorizeHttpRequests(auth -> auth
                         .requestMatchers("/auth/login").permitAll()
                         .requestMatchers("/api/users/register").hasRole("ADMIN")
+
+                        // criação exige estar autenticado com uma das roles
+                        .requestMatchers(HttpMethod.POST, "/api/product/save").hasAnyRole("ADMIN")
+
+
                         .anyRequest().authenticated()
                 )
 
