@@ -4,3 +4,5 @@ A **simple E-commerce application** developed with **Java 21** and **Spring Boot
 The project includes user registration, product management, shopping carts, and order processing, with persistence in a **PostgreSQL** relational database.
 
 ---
+
+## 📌 Features
