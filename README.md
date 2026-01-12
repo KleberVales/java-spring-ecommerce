@@ -10,3 +10,4 @@ The project includes user registration, product management, shopping carts, and 
 ### 👤 Users
 
 - User registration
+- Access profiles (USER / ADMIN)
