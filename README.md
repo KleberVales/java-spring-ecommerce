@@ -33,6 +33,9 @@ The project includes user registration, product management, shopping carts, and 
 - Total value calculation
 - Order history per user
 
+---
+
+## 🛠️ Technologies Used
 
 
 
