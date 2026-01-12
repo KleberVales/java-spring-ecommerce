@@ -52,5 +52,15 @@ The project includes user registration, product management, shopping carts, and 
 
 ## 🏗️ Architecture
 
+The project follows a **layered monolithic architecture**, adhering to industry best practices:
+**Controller → Service → Repository → Database**
+
+
+
+
+
+
+
+
 
 
