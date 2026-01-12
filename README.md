@@ -55,7 +55,19 @@ The project includes user registration, product management, shopping carts, and 
 The project follows a **layered monolithic architecture**, adhering to industry best practices:
 **Controller → Service → Repository → Database**
 
+### 📂 Package Structure
 
+```shell
+com.example.javaspringecommerce
+│
+├── config      # Configurations (Security, Beans, etc.)
+├── controller  # REST Controllers
+├── domain      # JPA Entities
+├── dto         # Data Transfer Objects
+├── repository  # JPA Repositories
+├── service     # Business Logic
+└── EcommerceApplication.java
+```
 
 
 
