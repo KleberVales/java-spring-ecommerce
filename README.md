@@ -41,4 +41,13 @@ The project includes user registration, product management, shopping carts, and 
 - **Spring Boot**
 - **Spring Web**
 - **Spring Data JPA**
+- **Spring Security**
+
+
+
+
+
+
+
+
 
