@@ -16,3 +16,4 @@ The project includes user registration, product management, shopping carts, and 
 ### 📦 Products
 
 - Product registration
+- Product listing
