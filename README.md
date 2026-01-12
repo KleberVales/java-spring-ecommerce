@@ -12,3 +12,5 @@ The project includes user registration, product management, shopping carts, and 
 - User registration
 - Access profiles (USER / ADMIN)
 - Structure prepared for Spring Security authentication
+
+### 📦 Products
