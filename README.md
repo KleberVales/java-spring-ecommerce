@@ -39,6 +39,6 @@ The project includes user registration, product management, shopping carts, and 
 
 - **Java 21**
 - **Spring Boot**
-
+- **Spring Web**
 
 
