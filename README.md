@@ -46,7 +46,7 @@ The project includes user registration, product management, shopping carts, and 
 - **Gradle (Groovy DSL)**
 - **Hibernate**
 - **REST API**
-
+- **DTO Pattern**
 
 
 
