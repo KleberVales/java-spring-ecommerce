@@ -31,5 +31,10 @@ The project includes user registration, product management, shopping carts, and 
 
 - Create orders from the shopping cart
 - Total value calculation
+- Order history per user
+
+
+
+
 
 
