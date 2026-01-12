@@ -3,6 +3,7 @@ package org.example.javaspringecommerce.domain.product;
 import jakarta.persistence.*;
 import org.example.javaspringecommerce.domain.user.User;
 
+import java.math.BigDecimal;
 import java.time.LocalDateTime;
 
 @Entity
@@ -17,7 +18,7 @@ public class Product {
     private String name;
 
     @Column(nullable = false)
-    private Double price;
+    private BigDecimal price;
 
     @ManyToOne(optional = false)
     @JoinColumn(name = "author_id")
@@ -41,11 +42,11 @@ public class Product {
         this.name = name;
     }
 
-    public Double getPrice() {
+    public BigDecimal getPrice() {
         return price;
     }
 
-    public void setPrice(Double price) {
+    public void setPrice(BigDecimal price) {
         this.price = price;
     }
 

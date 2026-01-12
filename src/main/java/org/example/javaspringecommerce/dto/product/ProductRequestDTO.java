@@ -1,9 +1,11 @@
 package org.example.javaspringecommerce.dto.product;
 
+import java.math.BigDecimal;
+
 public class ProductRequestDTO {
 
     private String name;
-    private Double price;
+    private BigDecimal price;
 
     public String getName() {
         return name;
@@ -13,11 +15,11 @@ public class ProductRequestDTO {
         this.name = name;
     }
 
-    public Double getPrice() {
+    public BigDecimal getPrice() {
         return price;
     }
 
-    public void setPrice(Double price) {
+    public void setPrice(BigDecimal price) {
         this.price = price;
     }
 }
